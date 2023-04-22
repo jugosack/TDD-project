@@ -14,6 +14,8 @@ describe 'Solver class' do
         it 'special case that the factorial of 0 is 1' do
             expect(@solver.factorial(0)).to eq 1
             end
-        
+            it 'multiplication of all integers from 1 to N' do
+                expect(@solver.factorial(3)).to eq 6
+                end
     end
 end
