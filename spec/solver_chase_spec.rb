@@ -15,6 +15,9 @@ describe 'Solver class' do
     it 'string should be buzz' do
         expect(@solver.fizzbuzz(5)).to eq 'buzz'
     end
-    
+    it 'string should be fizz' do
+        expect(@solver.fizzbuzz(3)).to eq 'fizz'
+    end
+
     end
 end
