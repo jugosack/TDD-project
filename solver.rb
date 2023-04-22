@@ -7,6 +7,9 @@ class Solver
             'fizzbuzz'
         elsif num % 5 == 0
             'buzz'
+        elsif num % 3 == 0
+            'fizz'
         end
+
     end
 end
