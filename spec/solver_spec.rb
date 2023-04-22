@@ -10,5 +10,8 @@ describe 'Solver class' do
         it 'string should be reversed' do
             expect(@solver.reverse('hello')).to eq 'olleh'
         end
+        it 'string should be reversed' do
+            expect(@solver.reverse('jugoslav')).to eq 'valsoguj'
+        end
     end
 end
