@@ -10,5 +10,10 @@ describe 'Solver class' do
         it 'should raise exception for negative integer' do
             expect { @solver.factorial(-5) }.to raise_error(StandardError, 'Please enter 0 or positive number')
         end
+
+        it 'special case that the factorial of 0 is 1' do
+            expect(@solver.factorial(0)).to eq 1
+            end
+        
     end
 end
