@@ -20,6 +20,11 @@ class Solver
             raise StandardError,'Please enter 0 or positive number'
         elsif sequence == 0
             1
+        else sequence > 0
+            sequence * factorial(sequence - 1)
+
+    
+
         end
     end
 end
