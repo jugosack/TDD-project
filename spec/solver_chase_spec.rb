@@ -18,6 +18,9 @@ describe 'Solver class' do
     it 'string should be fizz' do
         expect(@solver.fizzbuzz(3)).to eq 'fizz'
     end
+    it 'string should plain string in any other case' do
+        expect(@solver.fizzbuzz(7)).to eq '7'
+    end
 
     end
 end
