@@ -8,7 +8,7 @@ describe 'Solver class' do
 
     describe 'method called reverse that takes one argument, a string' do
         it 'string should be reversed' do
-            expect(@solver.reverse(hello)).to eq 'olleh'
+            expect(@solver.reverse('hello')).to eq 'olleh'
         end
     end
 end
