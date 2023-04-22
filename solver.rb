@@ -18,6 +18,8 @@ class Solver
     def factorial(sequence)
         if sequence < 0
             raise StandardError,'Please enter 0 or positive number'
+        elsif sequence == 0
+            1
         end
     end
 end
